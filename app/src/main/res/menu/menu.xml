@@ -6,15 +6,15 @@
         android:icon="@android:drawable/ic_menu_add"
         android:title="Agregar Item" />
     <item
-        android:id="@+id/add_refrescar"
+        android:id="@+id/refrescar"
         android:icon="@android:drawable/ic_menu_add"
         android:title="Refrescar" />
     <item
-        android:id="@+id/add_vermapa"
+        android:id="@+id/vermapa"
         android:icon="@android:drawable/ic_menu_add"
         android:title="Ver Mapa" />
     <item
-        android:id="@+id/add_cerrar"
+        android:id="@+id/cerrar"
         android:icon="@android:drawable/ic_menu_add"
         android:title="Cerrar" />
     //Refrescar

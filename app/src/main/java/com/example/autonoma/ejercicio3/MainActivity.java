@@ -17,17 +17,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //
-        etUsuario= findViewById(R.id.edUsuario);
-        etClave= findViewById(R.id.edClave);
+        etUsuario = findViewById(R.id.edUsuario);
+        etClave = findViewById(R.id.edClave);
 
-        btnLogin=findViewById(R.id.btnLogin);
+        btnLogin = findViewById(R.id.btnLogin);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //logearse hardcode
-                if(etUsuario.getText().toString().equals("elvis") &&
-                        etClave.getText().toString().equals("123")){
+                if (etUsuario.getText().toString().equals("tsubasa") &&
+                        etClave.getText().toString().equals("123")) {
                     //
                     Intent intent = new Intent(
                             MainActivity.this,
