@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //logearse hardcode
-                if (etUsuario.getText().toString().equals("tsubasa") &&
+                if (etUsuario.getText().toString().equals("correa") &&
                         etClave.getText().toString().equals("123")) {
                     //
                     Intent intent = new Intent(

@@ -1,5 +1,6 @@
 package com.example.autonoma.ejercicio3;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -84,10 +85,16 @@ public class ProfesoresActivity extends AppCompatActivity {
             case R.id.vermapa:
                 //Crear un activity Plantilla Mapa
                 //Lleva al Activity
+                Intent i = new Intent(this, Mapa.class);
+                startActivity(i);
+
                 Toast.makeText(ProfesoresActivity.this, "Ver Mapa", Toast.LENGTH_LONG).show();
                 return true;
             //incio case Cerrar
             case R.id.cerrar:
+                //llevarte al mainActivity
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
                 Toast.makeText(ProfesoresActivity.this, "Cerrar", Toast.LENGTH_LONG).show();
                 return true;
             default:
